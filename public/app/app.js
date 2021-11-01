@@ -111,7 +111,7 @@ $(document).ready(function () {
   try {
     let app = firebase.app();
     initFirebase();
-    initListeners();
+    initListeners("#/home");
   } catch {
     console.error("yes");
   }
